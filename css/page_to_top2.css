@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.simplescrollup__button {
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  transition: 1s all;
+  z-index: 10000;
+  color: rgba(232,232,232,1.00);
+  background-color: rgba(115,189,203,1.00);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.simplescrollup__button--show {
+	transform: translateX(0);
+}
+.simplescrollup__button--hide {
+	transform: translateX(100px);
+}

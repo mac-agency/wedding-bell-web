@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.date_width {
+  width: 15%;
+}
+
+.midashi {
+  color: hsla(0,0%,52%,1.00);
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
