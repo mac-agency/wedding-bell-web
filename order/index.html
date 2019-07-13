@@ -202,9 +202,9 @@ window.addEventListener('load', function() {
         <form method="post" action="mail.php" class="form-horizontal">
         <div class="container">
           <div class="form-group">
-		<label class="col-sm-6 control-label" for="name">法人名または屋号</label>
+		<label class="col-sm-6 control-label" for="name">法人名または屋号　※個人の方は未入力で</label>
 		<div class="col-sm-10">
-			<input type="name" name="法人名" required="required" class="form-control" id="company-name" placeholder="株式会社○○○○○">
+			<input type="name" name="法人名" class="form-control" id="company-name" placeholder="株式会社○○○○○">
 		</div>
 	</div>
   <div class="form-group">
@@ -224,14 +224,14 @@ window.addEventListener('load', function() {
 		<label class="col-sm-6 control-label" for="InputSelect">お申込プラン</label>
 		<div class="col-sm-10">
 			<select required="required" name="お申込みプラン" class="form-control" id="InputSelect">
-				<option>ニコニコホームページ制作プラン（１ページ）</option>
-				<option>ワクワクホームページ制作プラン（準備中）</option>
-				<option>ドキドキホームページ制作プラン（準備中）</option>
-        <option>ブログ・ホームページ制作プラン（準備中）</option>
+				<option>Wedding Bell Webホームページ制作プラン（1ページ）</option>
+				<option>Wedding Bell Webホームページ制作プラン（2ページ）</option>
+				<option>Wedding Bell Webホームページ制作プラン（15日延長）</option>
+        <option>その他（ご相談の上お見積りのご対応）</option>
 			</select>
 		</div>
 	</div>
-          <div class="form-group">
+          <!--<div class="form-group">
     <label class="col-sm-6 control-label" for="">レンタルサーバーについて</label>
 		<div class="col-sm-10">
 			<div class="radio">
@@ -245,8 +245,8 @@ window.addEventListener('load', function() {
 		</label>
 	</div>
 		</div>
-	</div>
-	<div class="form-group">
+	</div>-->
+	<!--<div class="form-group">
     <label class="col-sm-6 control-label" for="">ドメイン取得について</label>
 		<div class="col-sm-10">
 			<div class="radio">
@@ -260,11 +260,11 @@ window.addEventListener('load', function() {
 		</label>
 	</div>
 		</div>
-	</div>
+	</div>-->
           <div class="form-group">
 		<label class="col-sm-6 control-label" for="InputTextarea">お問い合わせ内容</label>
 		<div class="col-sm-10">
-			<textarea rows="3" name="お問い合わせ内容" required="required" class="form-control" id="InputTextarea" placeholder="お問い合わせ内容をご入力ください。"></textarea>
+			<textarea rows="3" name="お問い合わせ内容" class="form-control" id="InputTextarea" placeholder="お問い合わせ内容をご入力ください。"></textarea>
 		</div>
 	</div>
 	<div class="form-group">
@@ -408,7 +408,7 @@ window.addEventListener('load', function() {
               
             </div>
             <div class="col-lg-6 col-12">
-              <h3 class="h5">ホームページ制作プラン</h3>
+              <h3 class="h5">Wedding Bell web</h3>
               <hr>
               <div>
             <div class="media">
