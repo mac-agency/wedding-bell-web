@@ -125,12 +125,13 @@ $mailFooterDsp = 1;
 $mailSignature = <<< FOOTER
 
 ──────────────────────
+Wedding Bell Web
 有限会社マックエージェンシー
 〒954-0051　新潟県見附市本所1丁目25番19号　
 TEL：090-7289-4281 　
 　
-E-mail:info@mac-agency.com
-URL: https://mac-agency.com/
+E-mail:web-admin@wedding-bell-web.com
+URL: https://wedding-bell-web.com/
 ──────────────────────
 
 FOOTER;

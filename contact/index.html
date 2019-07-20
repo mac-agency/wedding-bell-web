@@ -15,8 +15,6 @@
     <!-- InstanceEndEditable -->
     <meta name="msapplication-TileColor" content="#2d88ef">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-<link rel="shortcut icon" type="../favicons/vnd.microsoft.icon" href="../favicons/favicon.ico">
-<link rel="icon" type="vnd.microsoft.icon" href="../favicons/favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="../favicons/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="../favicons/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="../favicons/apple-touch-icon-72x72.png">
@@ -210,13 +208,17 @@ window.addEventListener('load', function() {
         <th class="table_width30">ご用件</th>
         <td><select name="ご用件">
             <option value="">選択してください</option>
-            <option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
-            <option value="リンクについて">リンクについて</option>
+            <option value="個人のお客様・お問い合わせ">個人のお客様お問い合わせ</option>
+            <option value="法人のお客様お問い合わせ">法人のお客様お問い合わせ</option>
           </select></td>
       </tr>
       <tr>
         <th>お名前</th>
         <td><input size="20" type="text" name="お名前" required="required"/> ※必須</td>
+      </tr>
+      <tr>
+        <th>法人名</th>
+        <td><input size="30" type="text" name="法人名"/> ※法人のお客様のみ</td>
       </tr>
       <tr>
         <th>電話番号（半角）</th>
