@@ -158,6 +158,14 @@
   border-left: 13px solid hsla(310,100%,50%,1.00);
 }
 
+.center-bg {
+  background-image: url(../images/center-line.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-origin: content-box;
+  background-position: center 0%;
+}
+
 @media (max-width:414px){
 
 .timeline_read {
